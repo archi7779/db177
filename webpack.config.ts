@@ -13,7 +13,7 @@ interface  EnvVariables {
 }
 export default (env: EnvVariables) => {
     const paths: BuildPaths = {
-       outPut: path.resolve(__dirname, 'build'),
+       outPut: path.resolve(__dirname, 'dist'),
        entry: path.resolve(__dirname, 'src', 'index.tsx'),
        html: path.resolve(__dirname, 'public', 'index.html'),
        src: path.resolve(__dirname, 'src'),
